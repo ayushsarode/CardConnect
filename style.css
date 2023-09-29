@@ -119,14 +119,17 @@ h1 {
 
 #github:hover {
   color: #fff;
+  transform: scale(1.2); 
 }
 
 #twitter:hover {
   color: #0892e1;
+  transform: scale(1.2); 
 }
 
 #linkedin:hover {
   color: #0177b4;
+  transform: scale(1.2); 
 }
 
 .Card .icons i a {
@@ -140,3 +143,26 @@ h1 {
   font-family: "Source Code Pro", monospace;
   color: #fff;
 }
+
+@keyframes cardAnimation {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.Card {
+  animation: cardAnimation 0.5s ease-in-out; 
+  animation-fill-mode: both; 
+  opacity: 0; 
+  transform: translateY(50px);
+}
+
+.Card .icons i {
+transition: color 0.3s ease; 
+}
+
