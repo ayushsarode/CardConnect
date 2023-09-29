@@ -44,6 +44,8 @@ During the month of October, individuals are invited to contribute to open sourc
 - **Note:** If you don't have an account on a particular platform, just remove the corresponding anchor tag block
 
 5. Create a Pull Request to add the changes to this repository. Please change the title to "<your-username>added"
+  
+6. Please patiently await the repository maintainer's review and be open to making further changes if requested. Your cooperation and flexibility are greatly appreciated!
 
 <br>
 
