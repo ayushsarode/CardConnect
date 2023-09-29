@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background-color: #D2E0FB; */
+  background-color: #ffeef4;
+  background: #000;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 40px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.Card {
+  display: inline-block;
+  font-family: "Open Sans", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 215x;
+  max-width: 315px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 1.4em;
+  background-color: #141414;
+  margin-top: 0;
+  border-top-right-radius: 10%;
+  margin-left: 2.5%;
+}
+
+.Card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.Card .profile-image {
+  padding: 10% 8% 0;
+}
+
+.Card .profile-image img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 50%;
+  max-width: 40%;
+}
+
+.Card figcaption {
+  padding: 2% 10% 10%;
+}
+
+.Card h3 {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+}
+
+.Role {
+  /* font-weight: 400; */
+  margin: 0;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  margin-top: 5;
+  font-weight: normal;
+}
+
+.Main {
+  font-weight: normal;
+  margin: 0;
+  text-transform: uppercase;
+  color: wheat;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  margin-top: 5;
+}
+
+.Main:hover {
+  color: #fff;
+}
+
+.line {
+  border-top: 1px solid grey;
+  margin-bottom: 20px;
+  opacity: 0.5;
+  width: 90%;
+  margin-left: 13px;
+}
+
+.Quote {
+  font-family: "Poppins", sans-serif;
+}
+
+.Card .icons i {
+  color: #999;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+
+#github:hover {
+  color: #fff;
+}
+
+#twitter:hover {
+  color: #0892e1;
+}
+
+#linkedin:hover {
+  color: #0177b4;
+}
+
+.Card .icons i a {
+  text-decoration: none;
+}
+
+/* footer */
+
+.credit {
+  position: relative;
+  font-family: "Source Code Pro", monospace;
+  color: #fff;
+}
