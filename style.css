@@ -18,11 +18,32 @@ body {
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
   letter-spacing: 1px;
-  font-size: 40px;
+  font-family: 'Young Serif', serif;
+  font-size: 3rem;
   color: #fff;
+  -webkit-text-stroke: 2px #fffba4;
   margin-top: 30px;
+  animation: changeStrokeColor 8s infinite;
+}
+
+@keyframes changeStrokeColor {
+
+  0%,100% {
+    -webkit-text-stroke: 0.1rem #fffba4;
+  }
+
+  25% {
+    -webkit-text-stroke: 0.1rem #d2b863;
+  }
+
+  50% {
+    -webkit-text-stroke: 0.1rem #ad832d;
+  }
+
+  75% {
+    -webkit-text-stroke: 0.1rem #3d2e10;
+  }
 }
 
 .Card {
@@ -119,17 +140,17 @@ h1 {
 
 #github:hover {
   color: #fff;
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
 #twitter:hover {
   color: #0892e1;
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
 #linkedin:hover {
   color: #0177b4;
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
 .Card .icons i a {
@@ -149,6 +170,7 @@ h1 {
     transform: translateY(50px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;
@@ -156,13 +178,12 @@ h1 {
 }
 
 .Card {
-  animation: cardAnimation 0.5s ease-in-out; 
-  animation-fill-mode: both; 
-  opacity: 0; 
+  animation: cardAnimation 0.5s ease-in-out;
+  animation-fill-mode: both;
+  opacity: 0;
   transform: translateY(50px);
 }
 
 .Card .icons i {
-transition: color 0.3s ease; 
+  transition: color 0.3s ease;
 }
-
