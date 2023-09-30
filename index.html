@@ -49,11 +49,24 @@
 
     <footer>
         <center>
-            <h3 class="credit">Made by ayush with 💖</h3>
+            <h3 id="credit" class="credit"></h3>
         </center>
 
     </footer>
 
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#credit', {
+      strings: ['Made with 💖 by Ayush',],
+      typeSpeed: 50,
+      onComplete: function (self) {
+        setTimeout(function () {
+                        self.reset();
+                        self.start();
+                    }, 2000); // 2000 milliseconds (2 seconds) delay
+                }
+    });
+  </script>
 </body>
 
 </html>
