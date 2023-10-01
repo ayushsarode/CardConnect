@@ -51,7 +51,7 @@ a. Copy the HTML code below and replace the placeholders with your information a
     <div class="profile-image"><img src="{IMAGE-URL}" alt="Profile-Image" /></div>
     <figcaption>
         <h3>{YOUR_NAME}</h3>
-        <h5 class="Role">Contributor</h5>
+        <h5> class="Role">Contributor</h5>
         <div class="line"></div>
         <div class="icons">
             <a href="GITUHB_URL" target="_blank"><i class="ion-social-github" id="github"></i></a>
