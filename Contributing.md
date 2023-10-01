@@ -38,7 +38,7 @@ During the month of October, individuals are invited to contribute to open sourc
 </figure>
 ```
 
-4. Navigate to the "index.html" file, access the editing mode, insert the provided code after the 38th line and save the file.
+4. Navigate to the "index.html" file, access the editing mode, insert the provided code after the 44th line and save the file.
 
 - Replace **{IMAGE-URL}** with your image URL, **{YOUR_NAME}** with your name, **GITUHB_URL** with your GitHub URL, **TWITTER_URL** with your Twitter URL, and **LINKEDIN_URL** with your **LinkedIn URL**.
 - **Note:** If you don't have an account on a particular platform, just remove the corresponding anchor tag block
