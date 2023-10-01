@@ -32,7 +32,7 @@ If you're new to open source or just looking to contribute to this project, here
     <div class="profile-image"><img src="{IMAGE-URL}" alt="Profile-Image" /></div>
     <figcaption>
         <h3>{YOUR_NAME}</h3>
-        <h5 class="Role">Contributor</h5>
+        <h5> class="Role">Contributor</h5>
         <div class="line"></div>
         <div class="icons">
             <a href="GITUHB_URL" target="_blank"><i class="ion-social-github" id="github"></i></a>
