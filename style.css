@@ -41,6 +41,7 @@ h1 {
   color: #fff;
   /* -webkit-text-stroke: 2px #fffba4; */
   margin-top: 10px;
+  margin-bottom: 5px;
   animation: changeStrokeColor 8s infinite;
   font-weight: normal;
 }
