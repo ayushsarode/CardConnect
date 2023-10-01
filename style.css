@@ -9,6 +9,19 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #302f2f;
+  border-radius: 10px;
+}
+
+
 body {
   /* background-color: #D2E0FB; */
   background-color: #ffeef4;
@@ -44,6 +57,13 @@ h1 {
   75% {
     -webkit-text-stroke: 0.1rem #3d2e10;
   }
+}
+
+.container  {
+  display: grid;
+  place-items: center;
+  padding: 12px;
+  gap: 8px;
 }
 
 .Card {
@@ -185,5 +205,57 @@ h1 {
 }
 
 .Card .icons i {
+
+transition: color 0.3s ease; 
+}
+
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+ /**
+  * responsive for larger than 768px screen
+  */
+
+@media(min-width: 768px) {
+
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+ /**
+  * responsive for larger than 992px screen
+  */
+
+  @media(min-width: 992px) {
+    .container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+ /**
+  * responsive for larger than 1480px screen
+  */
+
+  @media(min-width: 1280px) {
+    .container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+
+ /**
+  * responsive for larger than 1980px screen
+  */
+
+  @media(min-width: 1980px) {
+    .container {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+=======
   transition: color 0.3s ease;
 }
+
