@@ -18,10 +18,10 @@
 4. [Authors](#authors)
 5. [Repo Status](#status)
 6. [Our Contributors](#contributors)
-   <br>
+   <br><br>
    
-## 🌐 Purpose 
 <a name="purpose"></a>
+## 🌐 Purpose 
 This repository is dedicated to welcoming new contributors to the world of Open-source software development. We believe that open source is a collaborative endeavor, and we are excited to have you on board!
 
 We welcome you to contribute and enhance your skills to participate in Open-source development with us :)
@@ -30,8 +30,9 @@ We welcome you to contribute and enhance your skills to participate in Open-sour
  PS: In this repository, we are focused on encouraging Open-source contributing and this repository is just for acquainting our contributors with Open-source, i.e. PRs made here won't count for Hactoberfest. </B>
 <br><br>
 
-## 🌱 Get started with Open-source
 <a name="steps"></a>
+## 🌱 Get started with Open-source
+
 If you're new to open source or just looking to contribute to a project in Hactoberfest, here are some steps to help you get started:
 <br>
 1. Register for Hacktoberfest on the official website: [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
@@ -75,26 +76,28 @@ Here, please change the title to "added {your-name}"
 
 <br><br>
 
-## ⚒ Questions or Help Needed?
 <a name="questions"></a>
+## ⚒ Questions or Help Needed?
+
 If you have any questions or need assistance, feel free to open an issue or reach out to our community. We are here to help!
 <br><br>
 
-## 👨‍💻 Authors
 <a name="authors"></a>
+## 👨‍💻 Authors
+
 - [AyushSarode](https://www.github.com/ayushsarode)
 <br><br>
 
-## 📊 Repo Status
 <a name="status"></a>
+## 📊 Repo Status
+
 ![GitHub PR Open](https://img.shields.io/github/issues-pr/ayushsarode/HacktoberFest2023-Profile-Card?style=for-the-badge&color=aqua)
 ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/ayushsarode/HacktoberFest2023-Profile-Card?style=for-the-badge&color=blue)
 <br><br>
 
-
+<a name="contributors"></a>
 ## 👥 Our Contributors
 
-<a name="contributors"></a>
 <a href="https://github.com/ayushsarode/CardConnect-HacktoberfestEdition23/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ayushsarode/CardConnect-HacktoberfestEdition23" />
 </a>
