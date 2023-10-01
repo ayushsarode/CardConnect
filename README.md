@@ -1,5 +1,5 @@
 <div align="center">
-<h1 >Welcome to the Open-Source Contribution Repository! </h1>
+<h1> Welcome to the Open-Source Contribution Repository! </h1>
 
 
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
@@ -11,26 +11,27 @@
 <img src="https://img.shields.io/github/stars/ayushsarode/HacktoberFest2023-Profile-Card?style=for-the-badge" />
 </div> 
 
-## Table of Contents
+## 📃 Table of Contents
 1. [Introduction](#purpose)
 2. [Get started with Open-source](#steps)
 3. [Questions or Help Needed?](#questions)
 4. [Authors](#authors)
 5. [Repo Status](#status)
 6. [Our Contributors](#contributors)
+   <br>
    
-## Purpose 
+## 🌐 Purpose 
+<a name="purpose"></a>
 This repository is dedicated to welcoming new contributors to the world of Open-source software development. We believe that open source is a collaborative endeavor, and we are excited to have you on board!
 
 We welcome you to contribute and enhance your skills to participate in Open-source development with us :)
 <B>
 <br><br>
  PS: In this repository, we are focused on encouraging Open-source contributing and this repository is just for acquainting our contributors with Open-source, i.e. PRs made here won't count for Hactoberfest. </B>
- <a name="purpose"></a>
+<br><br>
 
-
-
-## Get started with Open-source
+## 🌱 Get started with Open-source
+<a name="steps"></a>
 If you're new to open source or just looking to contribute to a project in Hactoberfest, here are some steps to help you get started:
 <br>
 1. Register for Hacktoberfest on the official website: [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
@@ -39,7 +40,6 @@ If you're new to open source or just looking to contribute to a project in Hacto
 - Click the "Fork" button in the upper-right corner of the repository's page. This creates a copy (fork) of the repository in your GitHub account.
 <div align="center">
 <img src="https://user-images.githubusercontent.com/63325246/138092106-83ca7ed0-1ec3-4d01-a90c-ae3362bef4f5.jpg" alt="forked!" style="width: 50%; height: 50%;"> </div>
-<a name="steps"></a>
 
 3. Check out all intructions before beginning to contribute.
 <br>
@@ -73,21 +73,26 @@ Here, please change the title to "added {your-name}"
 
 #### For More Details check out  [contributing.md](https://github.com/ayushsarode/HacktoberFest2023-Profile-Card/blob/main/Contributing.md) 
 
-## Questions or Help Needed?
+<br><br>
+
+## ⚒ Questions or Help Needed?
 <a name="questions"></a>
 If you have any questions or need assistance, feel free to open an issue or reach out to our community. We are here to help!
+<br><br>
 
-## Authors
+## 👨‍💻 Authors
 <a name="authors"></a>
 - [AyushSarode](https://www.github.com/ayushsarode)
+<br><br>
 
-## Repo Status
+## 📊 Repo Status
 <a name="status"></a>
 ![GitHub PR Open](https://img.shields.io/github/issues-pr/ayushsarode/HacktoberFest2023-Profile-Card?style=for-the-badge&color=aqua)
 ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/ayushsarode/HacktoberFest2023-Profile-Card?style=for-the-badge&color=blue)
 <br><br>
 
-## Our Contributors
+
+## 👥 Our Contributors
 
 <a name="contributors"></a>
 <a href="https://github.com/ayushsarode/CardConnect-HacktoberfestEdition23/graphs/contributors">
@@ -96,5 +101,5 @@ If you have any questions or need assistance, feel free to open an issue or reac
 
 <br><br>
 
-**Thank you to all the amazing contributors! Show some ❤️ by starring this awesome repository!**
+**Thank you to all the amazing contributors~ <br> Show some ❤️ by starring this awesome repository!**
 
