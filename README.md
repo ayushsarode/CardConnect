@@ -1,10 +1,15 @@
 <div align="center">
-<h1 >Welcome to the Open Source Contribution Repository </h1>
+<h1 >Welcome to the Open-Source Contribution Repository! </h1>
 
 
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
 </div>
 <br>
+<div align="center">
+<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fayushsarode%2FHacktoberFest2023-Profile-Card&label=visitors&countColor=%2337d67a&style=for-the-badge&labelStyle=upper" />
+<img src="https://img.shields.io/github/contributors/ayushsarode/HacktoberFest2023-Profile-Card?style=for-the-badge" />
+<img src="https://img.shields.io/github/stars/ayushsarode/HacktoberFest2023-Profile-Card?style=for-the-badge" />
+</div> 
 
 ## Table of Contents
 1. [Introduction](##Purpose)
@@ -22,11 +27,7 @@ We welcome you to contribute and enhance your skills to participate in Open-sour
 <br><br>
  PS: In this repository, we are focused on encouraging Open-source contributing and this repository is just for acquainting our contributors with Open-source, i.e. PRs made here won't count for Hactoberfest. </B>
 
-<div align="center">
-<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fayushsarode%2FHacktoberFest2023-Profile-Card&label=visitors&countColor=%2337d67a&style=for-the-badge&labelStyle=upper" />
-<img src="https://img.shields.io/github/contributors/ayushsarode/HacktoberFest2023-Profile-Card?style=for-the-badge" />
-<img src="https://img.shields.io/github/stars/ayushsarode/HacktoberFest2023-Profile-Card?style=for-the-badge" />
-</div>
+
 
 ## Get started with Open-source
 If you're new to open source or just looking to contribute to a project in Hactoberfest, here are some steps to help you get started:
