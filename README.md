@@ -47,11 +47,12 @@ If you're new to open source or just looking to contribute to a project in Hacto
 In our repository, <br>
 a. Copy the HTML code below and replace the placeholders with your information and URLs:
 
-``` <figure class="Card">
+``` 
+<figure class="Card">
     <div class="profile-image"><img src="{IMAGE-URL}" alt="Profile-Image" /></div>
     <figcaption>
         <h3>{YOUR_NAME}</h3>
-        <h5> class="Role">Contributor</h5>
+        <h5 class="Role">Contributor</h5>
         <div class="line"></div>
         <div class="icons">
             <a href="GITUHB_URL" target="_blank"><i class="ion-social-github" id="github"></i></a>
