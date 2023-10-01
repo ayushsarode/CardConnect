@@ -68,9 +68,9 @@ If you have any questions or need assistance, feel free to open an issue or reac
 
 ## OUR CONTRIBUTORS
 
-<a href="https://github.com/ayushsarode/HacktoberFest2023-Profile-Card/graphs/contributors">
-  <img align="center" src="https://contrib.rocks/image?max=100&repo=ayushsarode/HacktoberFest2023-Profile-Card" />
-</a> 
+<a href="https://github.com/ayushsarode/CardConnect-HacktoberfestEdition23/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ayushsarode/CardConnect-HacktoberfestEdition23" />
+</a>
 
 <br><br>
 
