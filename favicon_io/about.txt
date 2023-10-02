@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Salsa
+- Font Author: Copyright (c) 2011 by John Vargas Beltrn (john.vargasbeltran@gmail.com), with Reserved Font Name Salsa.
+- Font Source: http://fonts.gstatic.com/s/salsa/v21/gNMKW3FiRpKj-imY8ncKEZez.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
