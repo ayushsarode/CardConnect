@@ -38,12 +38,12 @@ h1 {
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
   font-size: 3rem;
-  color: #fff;
-  /* -webkit-text-stroke: 2px #fffba4; */
+  color:whitesmoke;
+  -webkit-text-stroke: 3px #251a3e;
   margin-top: 10px;
   margin-bottom: 5px;
   animation: changeStrokeColor 8s infinite;
-  font-weight: normal;
+  font-weight: bolder;
 }
 .container {
   display: grid;
@@ -237,3 +237,4 @@ h1 {
     grid-template-columns: repeat(5, 1fr);
   }
 }
+
