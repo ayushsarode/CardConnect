@@ -54,8 +54,7 @@ b. Navigate to the "index.html" file, access the editing mode, insert the provid
 Here, please change the title to "added {your-name}"
   
 5. Please patiently await the repository maintainer's review and be open to making further changes if requested. Your cooperation and flexibility are greatly appreciated!
-
-#### For More Details check out  [contributing.md](https://github.com/ayushsarode/HacktoberFest2023-Profile-Card/blob/main/Contributing.md) 
+   
 
 <br>
 
