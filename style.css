@@ -144,17 +144,17 @@ h1 {
   font-size: 1.5em;
 }
 
-#github:hover {
+.github:hover {
   color: #fff;
   transform: scale(1.2);
 }
 
-#twitter:hover {
+.twitter:hover {
   color: #0892e1;
   transform: scale(1.2);
 }
 
-#linkedin:hover {
+.linkedin:hover {
   color: #0177b4;
   transform: scale(1.2);
 }
