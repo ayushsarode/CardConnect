@@ -237,3 +237,27 @@ h1 {
     grid-template-columns: repeat(5, 1fr);
   }
 }
+
+.Card {
+  width: 300px; /* Set the width of the card container */
+  overflow: hidden; /* Hide any overflow content */
+  transition: transform 0.3s ease;
+  color: #333; /* Add a smooth transition effect for scaling */
+}
+
+.profile-image img {
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease; /* Add a smooth transition effect for scaling */
+}
+
+.Card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add a stronger box shadow on hover */
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.Card:hover .profile-image img {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
