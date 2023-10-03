@@ -13,16 +13,21 @@ During the month of October, individuals are invited to contribute to open sourc
 
 ## How to Contribute?
 
-1. Register for Hacktoberfest on the official website: [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
+If you're new to open source or just looking to contribute to a project in Hactoberfest for practice, here are some steps to help you get started:
+<br>
+1. Register for Hacktoberfest on the official website: [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
 2. Fork the Repository: <br>
 - Click the "Fork" button in the upper-right corner of the repository's page. This creates a copy (fork) of the repository in your GitHub account.
 <div align="center">
 <img src="https://user-images.githubusercontent.com/63325246/138092106-83ca7ed0-1ec3-4d01-a90c-ae3362bef4f5.jpg" alt="forked!" style="width: 50%; height: 50%;"> </div>
 
+3. Check out all intructions before beginning to contribute.
+<br>
+In our repository, <br>
+a. Copy the HTML code below and replace the placeholders with your information and URLs:
 
-3. Copy the HTML code below and replace the placeholders with your information and URLs:
-```
+``` 
 <figure class="Card">
     <div class="profile-image"><img src="{IMAGE-URL}" alt="Profile-Image" /></div>
     <figcaption>
@@ -38,14 +43,18 @@ During the month of October, individuals are invited to contribute to open sourc
 </figure>
 ```
 
-4. Navigate to the "index.html" file, access the editing mode, insert the provided code after the 38th line and save the file.
+
+b. Navigate to the "index.html" file, access the editing mode, insert the provided code above this comment <br>
+`<!-- Please place the code above this line -->` in html file.
 
 - Replace **{IMAGE-URL}** with your image URL, **{YOUR_NAME}** with your name, **GITUHB_URL** with your GitHub URL, **TWITTER_URL** with your Twitter URL, and **LINKEDIN_URL** with your **LinkedIn URL**.
 - **Note:** If you don't have an account on a particular platform, just remove the corresponding anchor tag block
 
-5. Create a Pull Request to add the changes to this repository. Please change the title to "<your-username>added"
+4. Create a Pull Request to add the changes to the repository. <br>
+Here, please change the title to "added {your-name}"
   
-6. Please patiently await the repository maintainer's review and be open to making further changes if requested. Your cooperation and flexibility are greatly appreciated!
+5. Please patiently await the repository maintainer's review and be open to making further changes if requested. Your cooperation and flexibility are greatly appreciated!
+   
 
 <br>
 

@@ -4,9 +4,14 @@
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700;800&display=swap");
 
 html {
   scroll-behavior: smooth;
+}
+
+* {
+  margin-right: 4px;
 }
 
 ::-webkit-scrollbar {
@@ -21,7 +26,6 @@ html {
   border-radius: 10px;
 }
 
-
 body {
   /* background-color: #D2E0FB; */
   background-color: #ffeef4;
@@ -32,34 +36,17 @@ body {
 h1 {
   text-align: center;
   letter-spacing: 1px;
-  font-family: 'Young Serif', serif;
+  font-family: "Poppins", sans-serif;
   font-size: 3rem;
   color: #fff;
-  -webkit-text-stroke: 2px #fffba4;
-  margin-top: 30px;
+  /* -webkit-text-stroke: 2px #fffba4; */
+  margin-top: 10px;
+  margin-bottom: 5px;
   animation: changeStrokeColor 8s infinite;
+  font-weight: normal;
+  
 }
-
-@keyframes changeStrokeColor {
-
-  0%,100% {
-    -webkit-text-stroke: 0.1rem #fffba4;
-  }
-
-  25% {
-    -webkit-text-stroke: 0.1rem #d2b863;
-  }
-
-  50% {
-    -webkit-text-stroke: 0.1rem #ad832d;
-  }
-
-  75% {
-    -webkit-text-stroke: 0.1rem #3d2e10;
-  }
-}
-
-.container  {
+.container {
   display: grid;
   place-items: center;
   padding: 12px;
@@ -71,7 +58,7 @@ h1 {
   font-family: "Open Sans", Arial, sans-serif;
   position: relative;
   overflow: hidden;
-  margin: 10px;
+  margin-bottom: 15px;
   min-width: 215x;
   max-width: 315px;
   width: 100%;
@@ -99,6 +86,11 @@ h1 {
   position: relative;
   border-radius: 50%;
   max-width: 40%;
+}
+
+.Card:hover .profile-image img {
+  transform: scale(1.1); /* Scale up the image on hover */
+  transition: transform 0.3s ease;
 }
 
 .Card figcaption {
@@ -205,57 +197,49 @@ h1 {
 }
 
 .Card .icons i {
-
-transition: color 0.3s ease; 
+  transition: color 0.3s ease;
 }
-
 
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
 
- /**
+/**
   * responsive for larger than 768px screen
   */
 
-@media(min-width: 768px) {
-
+@media (min-width: 768px) {
   .container {
     grid-template-columns: 1fr 1fr;
   }
 }
 
- /**
+/**
   * responsive for larger than 992px screen
   */
 
-  @media(min-width: 992px) {
-    .container {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+@media (min-width: 992px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
+}
 
- /**
+/**
   * responsive for larger than 1480px screen
   */
 
-  @media(min-width: 1280px) {
-    .container {
-      grid-template-columns: repeat(4, 1fr);
-    }
+@media (min-width: 1280px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
   }
+}
 
-
- /**
+/**
   * responsive for larger than 1980px screen
   */
 
-  @media(min-width: 1980px) {
-    .container {
-      grid-template-columns: repeat(5, 1fr);
-    }
+@media (min-width: 1980px) {
+  .container {
+    grid-template-columns: repeat(5, 1fr);
   }
-=======
-  transition: color 0.3s ease;
 }
-
