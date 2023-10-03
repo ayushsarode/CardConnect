@@ -44,6 +44,7 @@ h1 {
   margin-bottom: 5px;
   animation: changeStrokeColor 8s infinite;
   font-weight: normal;
+  
 }
 .container {
   display: grid;
@@ -85,6 +86,11 @@ h1 {
   position: relative;
   border-radius: 50%;
   max-width: 40%;
+}
+
+.Card:hover .profile-image img {
+  transform: scale(1.1); /* Scale up the image on hover */
+  transition: transform 0.3s ease;
 }
 
 .Card figcaption {
