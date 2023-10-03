@@ -13,7 +13,7 @@ During the month of October, individuals are invited to contribute to open sourc
 
 ## How to Contribute?
 
-If you're new to open source or just looking to contribute to a project in Hactoberfest, here are some steps to help you get started:
+If you're new to open source or just looking to contribute to a project in Hactoberfest for practice, here are some steps to help you get started:
 <br>
 1. Register for Hacktoberfest on the official website: [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
