@@ -17,6 +17,7 @@ html {
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background-color: #141414;
 }
@@ -44,8 +45,9 @@ h1 {
   margin-bottom: 5px;
   animation: changeStrokeColor 8s infinite;
   font-weight: normal;
-  
+
 }
+
 .container {
   display: grid;
   place-items: center;
@@ -89,7 +91,8 @@ h1 {
 }
 
 .Card:hover .profile-image img {
-  transform: scale(1.1); /* Scale up the image on hover */
+  transform: scale(1.1);
+  /* Scale up the image on hover */
   transition: transform 0.3s ease;
 }
 
@@ -167,6 +170,31 @@ h1 {
 
 .Card .icons i a {
   text-decoration: none;
+}
+
+/* Scroll */
+
+.scroll-container {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  background: rgb(128, 128, 255) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+  opacity: 0.7;
+}
+
+.scroll-container:hover {
+  opacity: 0.8;
+}
+
+.scroll-container:focus {
+  opacity: 0.9;
+}
+
+.scroll-container:active {
+  opacity: 1;
 }
 
 /* footer */
