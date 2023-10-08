@@ -17,6 +17,7 @@ html {
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background-color: #141414;
 }
@@ -44,8 +45,9 @@ h1 {
   margin-bottom: 5px;
   animation: changeStrokeColor 8s infinite;
   font-weight: normal;
-  
+
 }
+
 .container {
   display: grid;
   place-items: center;
@@ -89,7 +91,8 @@ h1 {
 }
 
 .Card:hover .profile-image img {
-  transform: scale(1.1); /* Scale up the image on hover */
+  transform: scale(1.1);
+  /* Scale up the image on hover */
   transition: transform 0.3s ease;
 }
 
@@ -167,6 +170,31 @@ h1 {
 
 .Card .icons i a {
   text-decoration: none;
+}
+
+/* Scroll */
+
+#scrollTop {
+  position: fixed;
+  background-color: #302f2f;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#scrollTop i {
+  display: grid;
+  align-items: center;
+  margin-left: 5px;
+  color: white;
+  font-size: 15px;
 }
 
 /* footer */
