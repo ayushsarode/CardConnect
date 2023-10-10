@@ -29,9 +29,24 @@ html {
 
 body {
   /* background-color: #D2E0FB; */
-  background-color: #ffeef4;
-  background: #000;
+  background-color: #171616;
+  color: #d55555;
   max-width: 100%;
+}
+
+.mode {
+  float:right;
+}
+button{
+  cursor: pointer;
+  border: 1px solid #555;
+  text-align: center;
+  padding: 5px;
+  margin-left: 8px; 
+}
+.dark{
+  background-color: #efecec;
+  color: #e6e6e6;
 }
 
 h1 {
