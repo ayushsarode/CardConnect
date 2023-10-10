@@ -101,11 +101,13 @@ If you have any questions or need assistance, feel free to open an issue or reac
 <a name="contributors"></a>
 ## 👥 Our Contributors
 
+<details>
 <a href="https://github.com/ayushsarode/CardConnect-HacktoberfestEdition23/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ayushsarode/CardConnect-HacktoberfestEdition23" />
 </a>
+</details>
 
-<br><br>
+<br>
 
 **Thank you to all the amazing contributors~ <br> Show some ❤️ by starring this awesome repository!**
 
