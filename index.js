@@ -18,5 +18,10 @@ const calScrollValue = () => {
 	});
 };
 
+function myFunction() {
+	let element = document.body;
+	element.classList.toggle("dark");
+}
+
 window.onscroll = calScrollValue;
 window.onload = calScrollValue;
