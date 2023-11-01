@@ -16,7 +16,7 @@
 2. [Get started with Open-source](#steps)
 3. [Questions or Help Needed?](#questions)
 4. [Authors](#authors)
-5. [Repo Status](#status)
+5. [Repository Status](#status)
 6. [Our Contributors](#contributors)
    <br><br>
    
