@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Welcome to the Open-Source Contribution Repository! </h1>
+<h1>Welcome to the Card-Connect Repository</h1>
 
 
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
